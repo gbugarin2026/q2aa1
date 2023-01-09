@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>The Barista Hub</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Lexend+Tera&family=Poppins:wght@500&family=Satisfy&display=swap');
+            body {
+                font-family: 'Poppins', sans-serif;
+                background-image: url("./2.png");
+                background-color: #362222;
+                color: white;
+                margin-left: 100px;
+                margin-right: 100px;
+            }
+            .container {
+                display: flex;
+            }
+            a {
+                text-decoration: none;
+            }
+            a:visited {
+                color: inherit;
+            }
+            #menutextcontainer {
+                margin-top: 125px;
+            }
+            #tbh {
+                background-color: #935230;
+                color: #362222;
+                font-size: 2em;
+                padding-left: 10px;
+                padding-right: 10px;
+                border-radius: 10px 0 0 10px;
+            }
+            #menutext {
+                background-color: #e6ded2;
+                color: #362222;
+                font-size: 2em;
+                padding-left: 10px;
+                padding-right: 200px;
+                border-radius: 0 10px 10px 0;
+            }
+            #menu-container {
+                margin-top: 50px;
+            }
+            .item {
+                display: flex;
+                margin-top: 15px;
+                margin-bottom: 15px;
+            }
+            .item p, .item h3 {
+                margin-left: 10px;
+            }
+            .item h3 {
+                font-size: 1.5em;
+            }
+            .price {
+                display: flex;
+                background-color: #d6770f;
+                color: #362222;
+                font-size: 1.5em;
+                height: 120px;
+                width: 120px;
+                border-radius: 50%;
+                justify-content: center;
+                align-items: center;
+            }
+            .price2 {
+                background-color: #f0d290;
+            }
+            #about {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #e6ded2;
+                color: black;
+                width: 300px;
+                height: 100px;
+                font-size: 1.5em;
+                margin-bottom: 24px;
+            }
+            #back {
+                font-size: 1.25em;
+            }
+        </style>
+    </head>
+    <body>
+        <article>
+            <div id="menutextcontainer" class="container">
+                <div id="tbh">
+                    <p>TBH</p>
+                </div>
+                <div id="menutext">
+                    <p>The Menu</p>
+                </div>
+            </div>
+            <div class="container" id="menu-container">
+                <div id="menu1">
+                    <div class="item">
+                        <div class="price">PHP 149</div>
+                        <div class="desc">
+                            <h3>Espresso</h3>
+                            <p>The easiest beverage to make and is often served in a tiny cup. This comes in Hot and Iced.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="price price2">PHP 155</div>
+                        <div class="desc">
+                            <h3>Waffles</h3>
+                            <p>The classic Belgian Waffle that's just right for you! This comes in three different flavors.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="price">PHP 160</div>
+                        <div class="desc">
+                            <h3>Omelette</h3>
+                            <p>A fluffy folded pancake made of beaten eggs.</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="menu2">
+                    <div class="item">
+                        <div class="price">PHP 169</div>
+                        <div class="desc">
+                            <h3>Pasta</h3>
+                            <p>Life is full of pasta-bilities. You can choose from Pesto, Bolognese, and Carbonara.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="price price2">PHP 175</div>
+                        <div class="desc">
+                            <h3>Grilled Sandwiches</h3>
+                            <p>You can choose between the BLT, Tuna, and Triple Cheese Sandwiches.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="about">
+                <a href="./about.html">ABOUT THE CAFE</a>
+            </div>
+            <a href="./index.html" id="back">BACK TO HOMEPAGE</a>
+        </article>
+    </body>
+</html>

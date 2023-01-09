@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>The Barista Hub</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Lexend+Tera&family=Poppins:wght@500&family=Satisfy&display=swap');
+            body {
+                font-family: 'Poppins', sans-serif;
+                background-image: url("./1.png");
+                background-color: #362222;
+                color: white;
+                margin-left: 250px;
+                margin-top: 0;
+            }
+            h1 {
+                font-size: 7em;
+                margin: 0;
+            }
+            img {
+                position: absolute;
+                top: 8px;
+                right: 16px;
+            }
+            a {
+                text-decoration: none;
+            }
+            a:visited {
+                color: inherit;
+            }
+            #est {
+                font-family: 'Satisfy', cursive;
+                color: #f0d290;
+                font-size: 7em;
+                margin-bottom: 0;
+            }
+            #by {
+                font-family: 'Satisfy', cursive;
+                font-size: 2em;
+                position: absolute;
+                bottom: 16px;
+                right: 32px;
+            }
+            #menu {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #e6ded2;
+                color: black;
+                width: 400px;
+                height: 100px;
+                font-size: 2em;
+                margin-bottom: 24px;
+            }
+            #about {
+                font-size: 1.5em;
+                color: #e6ded2;  
+            }
+            video {
+                position: absolute;  
+                bottom: 125px;
+                right: 32px;
+            }
+        </style>
+    </head>
+    <body>
+        <article>
+            <p id="est">est. 2022</p>
+            <h1>The</h1>
+            <h1>Barista Hub</h1>
+            <img src="logo.svg" alt="logo" width="150" height="150">
+            <div id="menu">
+                <a href="./menu.html">CHECK OUT THE MENU</a>
+            </div>
+            <a href="about.html" id="about">ABOUT THE CAFE</a>
+            <p id="by">by gwy.</p>
+        </article>
+        <div id="video">
+            <video width="860" height="620" muted loop autoplay>
+                <source src="coffee.mp4" type="video/mp4">
+            </video>
+        </div>
+    </body>
+</html>
